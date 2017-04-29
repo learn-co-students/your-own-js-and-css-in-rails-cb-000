@@ -1,4 +1,4 @@
 function hideWhenClicked(){
   var element = $('#hide_this');
-  element.remove();
+  element.css('display', 'none');
 }
